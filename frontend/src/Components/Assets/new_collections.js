@@ -12,58 +12,63 @@ let new_collections = [
     id: 12,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     image: p1_img,
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 50000,
+    old_price: 80000,
   },
   {
     id: 35,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     image: p2_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 85000,
+    old_price: 120000,
   },
   {
     id: 14,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     image: p3_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 60000,
+    old_price: 100000,
   },
   {
     id: 8,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     image: p4_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 100000,
+    old_price: 150000,
   },
   {
     id: 15,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     image: p5_img,
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 50000,
+    old_price: 80000,
   },
   {
     id: 2,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     image: p6_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 85000,
+    old_price: 120000,
   },
   {
     id: 17,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     image: p7_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 60000,
+    old_price: 100000,
   },
   {
     id: 28,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     image: p8_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 100000,
+    old_price: 150000,
   },
 ];
+//dung regex de chen dau . vao chuoi so
+new_collections.forEach(product => {
+  product.new_price = product.new_price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+  product.old_price = product.old_price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+})
 
 export default new_collections;
