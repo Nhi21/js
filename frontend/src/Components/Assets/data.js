@@ -6,28 +6,28 @@ import p4_img from './product_4.png'
 let data_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Đầm Tiệc Nữ Phối Sang Trọng",
     image: p1_img,
     new_price: 250000,
     old_price: 300000,
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Đầm Tiệc Nữ Vai Nơ",
     image: p2_img,
     new_price: 85000,
     old_price: 120050,
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Đầm Nữ Tay Dài Phối",
     image: p3_img,
     new_price: 60000,
     old_price: 100050,
   },
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Váy Polo Nữ Sorona Thêu Gấu",
     image: p4_img,
     new_price: 100000,
     old_price: 150000,

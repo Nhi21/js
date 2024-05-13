@@ -1,20 +1,36 @@
 .loginsignup {
     width: 100%;
-    height: 80vh;
-    background: #fce3fe;
+    height: 90vh;
+    background: rgb(212, 189, 206);
     padding-top: 100px;
+}
+
+.Background {
+    width: 50px;
+    height: 10px;
+}
+
+.Background img {
+    width: 1000%;
+    margin-left: 20px;
+    height: auto;
+}
+
+.logoKT {
+    width: 500px;
+    height: 100px;
 }
 
 .loginsignup-container {
     width: 580px;
-    height: 600px;
-    background: white;
-    margin: auto;
-    padding: 40px 60px;
+    height: 650px;
+    background: #e87ac7;
+    margin-left: 700px;
+    padding: 0px 60px;
 }
 
 .loginsignup-container h1 {
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 
 .loginsignup-fields {
@@ -46,4 +62,26 @@
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.loginsignup-login {
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.loginsignup-login span {
+    color: #ff4141;
+    font-weight: 600;
+}
+
+.loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
 }

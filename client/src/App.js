@@ -1,17 +1,12 @@
 
 import './App.css';
-import Header from './component/Header/Header';
-import Body from './component/Body/Body';
-import Footer from './component/Footer/Footer';
-function App() {
+import HomePage from './pages/user/homePage';
+function HomePage() {
   return (
-    <div className="App">
-     <Header/>
-     <Body/>
-     <Footer/>
-
+    <div className="HomePage">
+      <HomePage />
     </div>
   );
 }
 
-export default App;
+export default HomePage;
